@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <title>CV </title>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" type="image/x-icon" href="/Documents/images/images/favicon.ico">
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+ <style>
+  h1, h2, div {
+    background-color: rgb(95, 103, 106);
+  }
+  
+  h1 {
+    border-block: 5px solid red;
+  }
+  
+  
+  div {
+    border-block: double;
+  }
+  </style>
+  <style> 
+    #myDIV {
+      width: 100px;
+      height: 100px;
+      background: yellow;
+      -webkit-transition: 10s; /* es para Safari 3.1 a 6.0 */
+      transition: 10;
+    }
+    
+    #myDIV:hover {
+      width: 300px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div id="myDIV"></div>
+    <script>
+    
+    document.getElementById("myDIV").addEventListener("webkitTransitionEnd", myFunction);
+    
+    // evento
+    document.getElementById("myDIV").addEventListener("transitionend", myFunction);
+    
+    function myFunction(event) {
+      this.innerHTML = "Este es Mi Curriculom vitae: " + event.propertyName;
+    }
+    </script>
+</head>
+<body 
+<script src="js/script.js"></script>
+ <div class="w3-container">
+  <h2>Mi Tarjeta de Presentacion </h2>
+  <div class="w3-card" style="width:25%">
+    <img src="https://randomuser.me/api/portraits/men/28.jpg" alt="Imagen Foto de Perfil" style="width: 50%">
+    <div class="w3-container">
+      <h2><b>Joshua</b></h2>
+    </div>
+  </div>
+</div>
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style */
+    header {
+      background-color: lightseagreen;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: black;
+    }
+    
+    /* contenedor flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+    }
+    
+    /* Style de browser */
+  nav 
+
+    
+    /* Style tde menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    
+    article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: red;
+      padding: 10px;
+    }
+    
+    /* estilo footer */
+    footer {
+      background-color: green;
+      padding: 30px;
+      text-align: center;
+      color: goldenrod;
+    }
+    
+    /* Responsive  */
+    @media (max-width: 600px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    <header>
+      <h2>Joshua Long </h2>
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">ESTUDIOS FINALIZADOS</a></li>
+          <li><a href="#">CAPACITACION</a></li>
+          <li><a href="#">CARTA DE RECOMENDACION</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <h1>Nacionalidad</h1>
+        <p>Argentino</p>
+      </article>
+      <article>
+        <h1>Telefono de contacto</h1>
+        <p>telefono 797 3340749</p>
+      </article>
+      <article>
+        <h1>Domicilio</h1>
+        <p>J9179 Westheimer Rd.</p> 
+      </article>
+      <article>
+        <h1>Email</h1>
+        <p>joshua.long@example.com </p>
+        
+      </article>
+      <article>
+        <h1>Genero</h1>
+        <p>Masculino </p>
+        
+      </article>
+      <article>
+        <h1>fecha de nacimiento</h1>
+        <p> 3/4/1968 </p>
+        
+      </article>
+      <article>
+        <h1>Edad</h1>
+        <p> 54 Años </p>
+        
+      </article>
+    </section>
+    
+    <footer>
+      <p><strong> Experiencias</strong> diseño grafico, Autocad, Secretaria Estudio Contable</p>
+      <p> <strong> Habilidades</strong> de Programacion Basica y Seguridad Informatica </p>
+    </footer>
+    
+    </body>
+    </html>
+     
+</head>
+<body>
+    
+</body>
+</html>
